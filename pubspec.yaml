@@ -1,0 +1,30 @@
+name: sasai
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.1
+  package_info_plus: ^4.1.0  
+  http: ^1.1.0
+  json_annotation: ^4.8.1
+  get: ^4.6.6
+  url_launcher: ^6.2.1
+  intl: ^0.18.1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner:
+  json_serializable: ^6.7.1
+
+flutter:
+  uses-material-design: true
+
